@@ -10,14 +10,14 @@ public class Task3 {
 
         while (count < 5) {
 
-                double div = sc.nextDouble();
-                double div2 = sc.nextDouble();
+            double div = sc.nextDouble();
+            double div2 = sc.nextDouble();
             count++;
-                if (div2 == 0) {
-                    System.out.println("Деление на 0");
-                    continue;
-                }
-                    System.out.println(div/div2);
+            if (div2 == 0) {
+                System.out.println("Деление на 0");
+                continue;
+            }
+            System.out.println(div / div2);
 
         }
     }

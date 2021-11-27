@@ -6,13 +6,13 @@ public class Task1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        while (true){
+        while (true) {
             String city = sc.nextLine();
 
-            if(city.equals("Stop"))
+            if (city.equals("Stop"))
                 break;
 
-            switch (city){
+            switch (city) {
                 case "Москва":
                 case "Владивосток":
                 case "Ростов":

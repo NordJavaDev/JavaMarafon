@@ -19,7 +19,7 @@ public class Task3 {
 
             System.out.println();
 
-            if(sum >= sumInLine){
+            if (sum >= sumInLine) {
                 sumInLine = sum;
                 ind = i;
             }
