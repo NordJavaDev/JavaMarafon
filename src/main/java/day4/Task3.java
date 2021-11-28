@@ -10,13 +10,12 @@ public class Task3 {
         int ind = 0;
         for (int i = 0; i < matrice.length; i++) {
             int sum = 0;
+            Random random = new Random();
             for (int j = 0; j < matrice[i].length; j++) {
-                Random random = new Random();
                 matrice[i][j] = random.nextInt(50);
                 System.out.print(matrice[i][j] + " ");
                 sum += matrice[i][j];
             }
-
             System.out.println();
 
             if (sum >= sumInLine) {
